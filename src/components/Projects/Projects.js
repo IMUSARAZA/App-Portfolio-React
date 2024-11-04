@@ -7,7 +7,7 @@ import emotion from "../../Assets/Projects/emotion.png";
 import instagram from "../../Assets/Projects/instagram.jpg";
 import gymvisa from "../../Assets/Projects/gymvisa.jpeg";
 import suicide from "../../Assets/Projects/suicide.png";
-import classinsights from "../../Assets/Projects/classinsights.png";
+import classinsights from "../../Assets/Projects/classinsightsss.png";
 
 function Projects() {
   return (
