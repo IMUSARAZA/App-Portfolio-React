@@ -7,7 +7,7 @@ import emotion from "../../Assets/Projects/emotion.png";
 import instagram from "../../Assets/Projects/instagram.jpg";
 import gymvisa from "../../Assets/Projects/gymvisa.jpeg";
 import suicide from "../../Assets/Projects/suicide.png";
-import classinsight from "../../Assets/Projects/classinsight.png";
+import classinsights from "../../Assets/Projects/classinsights.png";
 
 function Projects() {
   return (
@@ -34,7 +34,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={classinsight}
+              imgPath={classinsights}
               isBlog={false}
               title="Class Insights"
               description="ClassInsight is a powerful and intuitive school management app built with Flutter, designed to streamline the educational process for administrators, teachers, students, and parents. With a user-friendly interface and robust functionality, ClassInsight ensures efficient management and seamless communication within the school community."
