@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import leptocheck from "../../Assets/Projects/leptocheck.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import instagram from "../../Assets/Projects/instagram.jpg";
 import gymvisa from "../../Assets/Projects/gymvisa.jpeg";
@@ -54,18 +54,18 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={leptocheck}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Leptospirosis Detection"
+              description="The Leptospirosis Detector App, developed using Flutter, is an innovative mobile application designed to assist in the early detection and management of leptospirosis. Users can input their symptoms, and the app uses a sophisticated algorithm to assess the likelihood of leptospirosis, providing immediate feedback and recommendations."
+              ghLink="https://github.com/IMUSARAZA/Leptospirosis-Detector-Flutter"
+              demoLink="https://play.google.com/store/apps/details?id=com.leptoCheck&hl=en"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
