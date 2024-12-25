@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leptocheck from "../../Assets/Projects/leptocheck.png";
+import munafaBanner from "../../Assets/Projects/munafaBanner.jpg";
 import emotion from "../../Assets/Projects/emotion.png";
 import instagram from "../../Assets/Projects/instagram.jpg";
 import gymvisa from "../../Assets/Projects/gymvisa.jpeg";
@@ -64,6 +65,17 @@ function Projects() {
               demoLink="https://play.google.com/store/apps/details?id=com.leptoCheck&hl=en"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={munafaBanner}
+              isBlog={false}
+              title="Munafa - A money saving app"
+              description="Munafa is a Flutter-based mobile app designed to help users save money by providing a platform to track their expenses and set financial goals. Users can create accounts, log in, and track their daily expenses. The app also allows users to set financial goals and track their progress. Munafa provides a user-friendly interface and a seamless experience for managing finances and saving money."
+              // ghLink="https://github.com/IMUSARAZA/Leptospirosis-Detector-Flutter"
+              demoLink="https://kf9ya4nsnhhhuv9b.public.blob.vercel-storage.com/munafaVideo-yOiogDLBZZNPbLAPRiPzgQo2MKVQYT.mp4"
+            />
+          </Col>  
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
