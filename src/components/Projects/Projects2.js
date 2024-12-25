@@ -12,7 +12,7 @@ import classinsights from "../../Assets/Projects/classinsight (1).png";
 
 function Projects() {
   return (
-    <Container fluid className="home-section">
+    <Container fluid className="home-about-section">
       <Particle />
       <Container>
         <h1 className="project-heading">
