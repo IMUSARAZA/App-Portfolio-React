@@ -29,7 +29,7 @@ function Projects() {
               title="Gym Visa"
               description="Gym Visa is a Flutter-based mobile app with a backend in Firebase, designed to offer users access to multiple gyms under various subscription packages. Users can purchase these packages through the in-app payment gateway. Additionally, the app provides offline exercise videos for full-body workouts and allows users to request diet plans from different nutritionists. Subscribed users can visit gyms by scanning the provided QR code for verification, while the admin panel manages user and gym data based on subscriptions."
               ghLink="https://github.com/IMUSARAZA/Gym-Visa-Flutter"
-              // demoLink="https://chatify-49.web.app/"
+              demoLink="https://kf9ya4nsnhhhuv9b.public.blob.vercel-storage.com/gymVisaVideo-6S5B7Rvi1anAfqpgjptQhppvfK5uhG.mp4"
             />
           </Col>
 
@@ -44,16 +44,6 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={instagram}
-              isBlog={false}
-              title="Instagram Clone"
-              description="Experience the essence of social media with our Instagram clone app, crafted using Flutter. Enjoy a responsive Instagram-like UI, complete with email and password authentication. Share posts with captions, display posts with captions, and engage with likes and comments. Seamlessly search for users, follow them, and view detailed profiles showcasing user posts, followers, and following. All interactions happen in real-time, ensuring an engaging and dynamic experience. Sign out effortlessly to maintain your privacy. Our app provides a smooth and immersive Instagram-like user interface for a superior social media experience."
-              ghLink="https://github.com/IMUSARAZA/Instagram-Clone-Flutter.git"
-              // demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -74,6 +64,17 @@ function Projects() {
               description="Munafa is a Flutter-based mobile app designed to help users save money by providing a platform to track their expenses and set financial goals. Users can create accounts, log in, and track their daily expenses. The app also allows users to set financial goals and track their progress. Munafa provides a user-friendly interface and a seamless experience for managing finances and saving money."
               // ghLink="https://github.com/IMUSARAZA/Leptospirosis-Detector-Flutter"
               demoLink="https://kf9ya4nsnhhhuv9b.public.blob.vercel-storage.com/munafaVideo-yOiogDLBZZNPbLAPRiPzgQo2MKVQYT.mp4"
+            />
+          </Col>
+
+                    <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={instagram}
+              isBlog={false}
+              title="Instagram Clone"
+              description="Experience the essence of social media with our Instagram clone app, crafted using Flutter. Enjoy a responsive Instagram-like UI, complete with email and password authentication. Share posts with captions, display posts with captions, and engage with likes and comments. Seamlessly search for users, follow them, and view detailed profiles showcasing user posts, followers, and following. All interactions happen in real-time, ensuring an engaging and dynamic experience. Sign out effortlessly to maintain your privacy. Our app provides a smooth and immersive Instagram-like user interface for a superior social media experience."
+              ghLink="https://github.com/IMUSARAZA/Instagram-Clone-Flutter.git"
+              // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>  
 
