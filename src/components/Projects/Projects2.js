@@ -51,7 +51,7 @@ function Projects() {
               isBlog={false}
               title="Leptospirosis Detection"
               description="The Leptospirosis Detector App, developed using Flutter, is an innovative mobile application designed to assist in the early detection and management of leptospirosis. Users can input their symptoms, and the app uses a sophisticated algorithm to assess the likelihood of leptospirosis, providing immediate feedback and recommendations."
-              ghLink="https://github.com/IMUSARAZA/Leptospirosis-Detector-Flutter"
+              // ghLink="https://github.com/IMUSARAZA/Leptospirosis-Detector-Flutter"
               demoLink="https://play.google.com/store/apps/details?id=com.leptoCheck&hl=en"
             />
           </Col>
