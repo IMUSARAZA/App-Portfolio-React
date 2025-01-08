@@ -23,12 +23,12 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
-            <ProjectCard
+          <ProjectCard
               imgPath={gymvisa}
               isBlog={false}
               title="Gym Visa"
               description="Gym Visa is a Flutter-based mobile app with a backend in Firebase, designed to offer users access to multiple gyms under various subscription packages. Users can purchase these packages through the in-app payment gateway. Additionally, the app provides offline exercise videos for full-body workouts and allows users to request diet plans from different nutritionists. Subscribed users can visit gyms by scanning the provided QR code for verification, while the admin panel manages user and gym data based on subscriptions."
-              ghLink="https://github.com/IMUSARAZA/Gym-Visa-Flutter"
+              // ghLink="https://github.com/IMUSARAZA/Gym-Visa-Flutter"
               demoLink="https://kf9ya4nsnhhhuv9b.public.blob.vercel-storage.com/gymVisaVideo-6S5B7Rvi1anAfqpgjptQhppvfK5uhG.mp4"
             />
           </Col>
@@ -39,8 +39,8 @@ function Projects() {
               isBlog={false}
               title="Class Insights"
               description="ClassInsight is a powerful and intuitive school management app built with Flutter, designed to streamline the educational process for administrators, teachers, students, and parents. With a user-friendly interface and robust functionality, ClassInsight ensures efficient management and seamless communication within the school community."
-              ghLink="https://github.com/IMUSARAZA/ClassInsight"
-              // demoLink="https://blogs.soumya-jit.tech/"
+              // ghLink="https://github.com/IMUSARAZA/ClassInsight"
+            demoLink="https://kf9ya4nsnhhhuv9b.public.blob.vercel-storage.com/ClassInsightDemo-EnF09TXq2CJ9CBPPL57ZWxv77X2j6M.mp4"
             />
           </Col>
 
@@ -67,14 +67,14 @@ function Projects() {
             />
           </Col>
 
-                    <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={instagram}
               isBlog={false}
               title="Instagram Clone"
               description="Experience the essence of social media with our Instagram clone app, crafted using Flutter. Enjoy a responsive Instagram-like UI, complete with email and password authentication. Share posts with captions, display posts with captions, and engage with likes and comments. Seamlessly search for users, follow them, and view detailed profiles showcasing user posts, followers, and following. All interactions happen in real-time, ensuring an engaging and dynamic experience. Sign out effortlessly to maintain your privacy. Our app provides a smooth and immersive Instagram-like user interface for a superior social media experience."
               ghLink="https://github.com/IMUSARAZA/Instagram-Clone-Flutter.git"
-              // demoLink="https://editor.soumya-jit.tech/"              
+            // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>  
 
