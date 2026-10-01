@@ -1,24 +1,24 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
-import Particle from "../Particle";
 import Home2 from "./Home2";
-import Projects2 from "../Projects/Projects2";
+import Projects from "../Projects/Projects";
 import Type from "./Type";
+
+const Particle = lazy(() => import("../Particle"));
 
 function Home() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
-        <Particle />
+        <Suspense fallback={null}>
+          <Particle />
+        </Suspense>
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
+                Hi, I build scalable platforms.
               </h1>
 
               <h1 className="heading-name">
@@ -26,7 +26,7 @@ function Home() {
                 <strong className="main-name"> Musa Raza</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div className="type-wrap">
                 <Type />
               </div>
             </Col>
@@ -34,7 +34,7 @@ function Home() {
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 src={homeLogo}
-                alt="home pic"
+                alt="Illustration of a developer at a desk"
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}
               />
@@ -43,10 +43,9 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
-      <Projects2 />
+      <Projects variant="home" />
     </section>
   );
-
 }
 
 export default Home;

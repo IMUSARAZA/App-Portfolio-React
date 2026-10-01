@@ -84,6 +84,7 @@ button:focus {
 
 .navbar {
   position: fixed !important;
+  z-index: 1030 !important;
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
@@ -256,7 +257,7 @@ button:focus {
 
 .home-section {
   position: relative;
-  z-index: -1;
+  z-index: 0;
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
@@ -298,7 +299,6 @@ button:focus {
   .Typewriter__wrapper {
     font-size: 1.4em !important;
     font-weight: 500 !important;
-    position: absolute !important;
   }
   .Typewriter__cursor {
     display: none !important;
@@ -441,6 +441,38 @@ button:focus {
 .blockquote-footer {
   color: #a588c0 !important;
 }
+
+.github-calendar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: #e6e6e6;
+  overflow-x: auto;
+}
+
+.github-calendar .react-activity-calendar {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.github-calendar text {
+  fill: #ddd;
+}
+
+.type-wrap {
+  padding: 28px 0 8px 50px;
+  text-align: left;
+  min-height: 90px;
+}
+
+.home-about-heading {
+  font-size: 2.4em;
+}
+
+.about-img {
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
 /* --------- */
 /* Projects */
 /* --------- */
@@ -466,11 +498,138 @@ button:focus {
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
+  display: flex !important;
+  flex-direction: column;
+}
+
+.project-card-view .card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+}
+
+.navbar-wordmark {
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  font-size: 1.05rem !important;
+}
+
+.project-card-view .card-img-top {
+  height: 220px;
+  object-fit: contain;
+  object-position: center;
+  background: #120818;
+}
+
+.project-role {
+  margin-bottom: 4px;
+  color: #c770f0;
+  font-size: 0.85rem;
+}
+
+.stack-row {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin: 8px 0 10px;
+}
+
+.stack-pill {
+  display: inline-flex;
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 2px 8px;
+  border: 1px solid rgba(199, 112, 240, 0.55);
+  border-radius: 999px;
+  font-size: 0.72rem;
+  line-height: 1.4;
+  white-space: nowrap;
+  color: #ead8f6;
+}
+
+.shot-row {
+  display: flex;
+  gap: 6px;
+  margin: 0 0 12px;
+}
+
+.shot-btn {
+  flex: 1;
+  min-width: 0;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background: transparent;
+  line-height: 0;
+}
+
+.shot-btn.active {
+  border-color: #c770f0;
+}
+
+.shot-btn img {
+  width: 100%;
+  height: 42px;
+  object-fit: cover;
+}
+
+.arch-list {
+  text-align: left;
+  padding-left: 1.1rem;
+  margin-bottom: 14px;
+  color: #ddd;
+  font-size: 0.92rem;
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 6px;
+  margin-top: auto;
+}
+
+.project-links .btn {
+  flex: 1 1 0;
+  min-width: 0;
+  padding: 6px 4px;
+  font-size: 0.75rem;
+  white-space: nowrap;
+}
+
+.system-row {
+  margin-top: 28px;
+}
+
+.system-col {
+  margin-bottom: 16px;
+}
+
+.system-box {
+  border: 1px solid rgba(199, 112, 240, 0.35);
+  border-radius: 12px;
+  padding: 16px 14px 8px;
+  text-align: left;
+  height: 100%;
+  background: rgba(12, 8, 24, 0.45);
+  color: white;
+}
+
+.system-box h3 {
+  font-size: 1.05rem;
+  color: #c770f0;
+}
+
+.system-box p {
+  font-size: 0.95rem;
+  color: #e6e6e6;
 }
 
 .blog-card {
@@ -740,4 +899,94 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+#tsparticles,
+#tsparticles canvas {
+  left: 0 !important;
+  width: 100% !important;
+  max-width: 100vw !important;
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    padding: 0.7rem 1rem !important;
+    font-size: 1rem !important;
+  }
+
+  .home-header {
+    padding-top: 0 !important;
+  }
+
+  .home-content {
+    padding: 5.5rem 0 1rem !important;
+  }
+
+  .heading,
+  .heading-name {
+    padding-left: 0 !important;
+    font-size: 1.65em !important;
+  }
+
+  .type-wrap {
+    padding: 12px 0 4px !important;
+    min-height: 48px;
+  }
+
+  .home-about-heading {
+    font-size: 1.55em !important;
+  }
+
+  .home-about-description {
+    padding-top: 8px !important;
+  }
+
+  .home-about-body {
+    font-size: 1.05em !important;
+    padding-top: 16px;
+  }
+
+  .home-about-section {
+    padding-top: 28px !important;
+    padding-bottom: 36px !important;
+  }
+
+  .about-section,
+  .project-section {
+    padding-top: 96px !important;
+  }
+
+  .about-img {
+    padding-top: 0 !important;
+    padding-bottom: 8px !important;
+    text-align: center;
+  }
+
+  .project-heading {
+    font-size: 1.55em !important;
+    padding-top: 8px !important;
+  }
+
+  .project-card {
+    padding: 12px 4px !important;
+  }
+
+  .project-card-view:hover {
+    transform: none !important;
+  }
+
+  .stack-row {
+    flex-wrap: wrap;
+  }
+
+  .tech-icons {
+    font-size: 2.5em !important;
+    margin: 6px !important;
+    padding: 8px !important;
+  }
+
+  .github-calendar {
+    justify-content: flex-start;
+    -webkit-overflow-scrolling: touch;
+  }
 }

@@ -1,0 +1,61 @@
+B. Villagerithm.com: AI-Powered Community & Subscription Platform
+
+React, React Native/Expo, Supabase, PostgreSQL, Stripe
+
+A family/community platform where users create profiles, interact within communities, discover activities, and receive personalized content. It also includes an activity/event funnel with external activities and event integrations with Eventbrite.com.
+
+Relevant work:
+
+a. User, family, and child profiles
+b. Community-based experiences and interactions
+c. Activity discovery and personalized recommendations
+d. External activity/event integrations
+e. Personalized activity vision board
+f. Subscription and Stripe integration
+
+Platform: https://villagerithm.com
+
+Vision Board: https://drive.google.com/file/d/1v9UP5nJ1z1fNPQzfNRmLxvXhYx6OSmn/view?usp=sharing
+Admin Dashboard: https://drive.google.com/file/d/1DfLIjExVrfW05Mp4q6V8MgjHaGbz2Dy/view?usp=sharing
+
+Mobile App: https://play.google.com/store/apps/details?id=com.villagerithm.app&pcampaignid=web_share
+
+
+
+A. MaverickMotors.us: Automotive Marketplace / SaaS (Next JS, Node JS, AWS) 
+MaverickMotors is an automotive marketplace where users can buy and sell vehicles with AI-assisted workflows.
+ I worked across the core backend and platform architecture, including:
+ a. Buyer, seller and admin workflows
+b. Vehicle/listing data and search
+c. Role-based authentication and authorization
+d. PostgreSQL/Supabase architecture
+e. AI-powered buyer, seller and finance agents
+f. Context-aware vehicle recommendations
+g.Third-party integrations including Tekion, RouteOne, Carfax and JD Power
+h. AWS production infrastructure 
+One of the more interesting parts was the AI routing system. Based on the user's intent, the platform switches the conversation to the appropriate Buy, Sell or Finance agent and uses real inventory/business data to provide relevant responses.  Platform: MaverickMotors.us
+Figma: https://www.figma.com/design/EXCSRr583ADq7o9IPaqK8V/Maverick-Motors-2.0-BUY-SELL-FINANCE?node-id=36704-22921
+
+
+
+RankOrbit.ai — AI Voice Agents for Calls & Websites (MERN)
+My role. Full Stack Developer
+
+Project description.
+
+RankOrbit.ai is a MERN stack platform that offers AI-powered voice agents for inbound/outbound calls and website support. It automates customer interactions using natural language processing, helping businesses handle queries, book appointments, and qualify leads. The platform includes real-time call analytics, CRM integration, and a user-friendly admin panel to manage campaigns and monitor AI performance.
+
+
+
+
+4o
+
+
+Skills and deliverables
+
+MERN Stack
+Next.js
+React
+MongoDB
+NestJS
+Published on May 27, 2025
